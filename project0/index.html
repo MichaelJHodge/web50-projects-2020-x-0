@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>MunchiesWithMike</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.scss">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">
+  </head>
+  <body>
+    <div id="navbar">
+        <div id="navbar-right">
+          <a class="active" href="index.html">Home</a>
+          <a href="About.html">About</a>
+          <a href="Recipes.html">Recipes</a>
+          <a href="Contact.html">Contact</a>
+      </div>
+    </div>
+
+    <div class="logo">
+    <div class="caption">
+        <span class="border"> Munchies With Mike </span>
+      </div>
+  </div>
+  
+  <div class="intro"> 
+    <div class="textSection">
+      <h3>Artisan Bread</h3>
+        <p>This recipe is a great recipe for those who've never 
+        made homemade bread before. Requiring only 4 ingredients, this recipe 
+        is perfect for those looking to learn more about bread making
+        and yeast! While you could follow the no-knead method, learning
+        and becoming comfortable with kneading and shaping dough will
+        allow you to bake some of the best loaves you've ever tasted, and
+        it will all be done by your own two hands. 
+        </p>
+    </div>
+  </div>
+
+  <div class="kitchen-equipment">
+    <div class="textSection">
+        <h3>Equipment</h3>
+        <ul>
+            <li>Banneton</li>
+            <li>Dutch Oven, Pizza stone, or oven-safe pot</li>
+            <li>Large/Deep mixing bowl</li>
+            <li>Tea towel/Proofing liner</li>
+            <li>Measuring cups and spoon (or scale) </li>
+            <li>Lame (or Razor for scoring)</li>
+        </ul>
+    </div>
+  </div>
+
+  <div class="ingredients">
+    <div class="textSection">
+        <h3>Ingredients</h3>
+        <ul> 
+            <li>420g bread flour (3 1/4 cups)</li>
+            <li>2 teaspoons instant yeast </li>
+            <li>2 teaspoons course salt </li>
+            <li>1 1/2 cups (360ml)luke warm water</li>
+        </ul>
+    </div>
+  </div>
+
+  <div class="instructions">
+    <div class="textSection">
+        <h3>Instructions</h3>
+        <ol>
+            <li> In your large/deep mixing bowl, mix together the flour,
+                yeast, salt, and water. Feel free to use a wooden spoon or
+                even better, your hands! Don't worry if the dough is sticky,
+                this is totally normal. Once all the ingredients all well
+                combined and incorporated, shape into a ball as best as you can. 
+            </li>
+            <li>Cover well with a tea towel, apron, etc., for 2-3 hours at 
+                room temperature. The dough should almost double in size. </li>
+            <li> Now, after this step, you could skip right to the baking part, 
+                no-knead required! However, for absolute best flavor, I highly suggest
+                kneading your bread dough periodically (once or twice every hour until 
+                bake time should suffice). For an easy tutorial on kneading,
+               <a href="https://www.youtube.com/watch?v=ySOj0fFWo1U">Click here </a>
+            </li>
+            <li> Roughly 1 whole hour before baking your bread, pre-heat your oven
+                to 475 degrees F. Whichever tool you choose to bake your bead (I highly
+                suggest a dutch-oven), don't forget to put that in the oven so it can heat up
+                as well. During this time, shape your dough once more, and place it
+                into your lightly-floured wooden banneton. Loosely cover until the 1 hour has passed.
+
+            </li>
+            <li> When this hour has passed, gently turn your banneton over
+                onto a lightly-floured piece of parchment paper. Using your bread lame,
+                razor, or scissors, score your dough with 3-4 slashes across the top, about 1/2 in deep. 
+                Once you become more confident, you can find more intricate scoring patterns online!
+            </li>
+            <li> Now, carefully remove your dutch-oven or oven-safe pot with cover, and gently 
+                place your dough (on the parchment) into the pot, and cover. Bake for 25 minutes
+                at 475 degrees F, and then remove the lid and cook for an additional 5 minutes.
+            </li>
+            <li> Remove the bread from the oven and tap the bottom of the loaf carefully, if it sounds
+                hollow, then the bread is done! If not, put it back in the oven, directly on the rack,
+                for an additional few minutes. 
+             </li>
+            <li> Let cool for at least 30-40 minutes before slicing and enjoying! </li>
+        </ol>
+    </div>
+  </div>
+
+  <div class="tips-and-notes">
+    <div class="textSection">
+        <h3>Tips and Notes</h3>
+        <ul>
+            <li> <b> Flour:</b> I personally recommend using a combination of white (70%), wheat (20%), and rye (10%) flour.
+                The bread will be slightly more dense and packing with more flavor!
+            </li>
+            <li><b>Yeast:</b> If using instant yeast, you can mix the ingredients together, no problem!
+            If using active dry yeast, you'll need to combine the water and yeast beforehand for a couple of minutes
+        before adding other ingredients. 
+            </li>
+            <li><b>Dutch oven:</b> I highly suggest using a dutch oven, as they can not only withstand
+            warmer oven temperatures, but the lid will allow for a nice crust to form. 
+            </li>
+            <li><b>Water:</b> It's better to use water that isn't too cold or too hot. If it's too cold, it will slow
+            down the yeast development. Too hot and you could damage or kill your yeast.  
+            </li>
+        </ul>
+    </div>
+  </div>
+  <script>
+    var prevScrollpos = window.pageYOffset;
+    window.onscroll = function() {
+    var currentScrollPos = window.pageYOffset;
+      if (prevScrollpos > currentScrollPos) {
+        document.getElementById("navbar").style.top = "0";
+      } else {
+        document.getElementById("navbar").style.top = "-50px";
+      }
+      prevScrollpos = currentScrollPos;
+    }
+    </script>
+</body>
+</html>
+
